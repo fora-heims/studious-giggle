@@ -1,3 +1,30 @@
 .center {
     display: flex;
 }
+
+body {
+    background-color: black;
+    color: whitesmoke;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+    font-size: 50px;
+    clear: both;
+}
+
+
+.home-img {
+    float: left;
+    padding-right: 30px;
+}
+
+h2 {
+    font-size: 40px;
+    clear: both;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+footer {
+    clear: both;
+}
