@@ -1,0 +1,43 @@
+.hexagrams {
+    height: 30px;
+    width: 250px;
+    background-color:cadetblue;
+    margin: 30px;
+    border-radius: 8px;
+}
+
+header nav {
+    float: left;
+}
+
+footer {
+    position: fixed;
+    bottom: 20px
+}
+
+.float-right {
+    float: right;
+}
+
+.top-line {
+
+}
+
+.fifth-line {
+
+}
+
+.fourth-line {
+
+}
+.third-line {
+
+}
+
+.second-line {
+
+}
+
+.bottom-line {
+
+}

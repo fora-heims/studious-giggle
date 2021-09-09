@@ -10,7 +10,6 @@ body {
 
 h1 {
     font-size: 50px;
-    clear: both;
 }
 
 
@@ -26,5 +25,7 @@ h2 {
 }
 
 footer {
-    clear: both;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
 }
