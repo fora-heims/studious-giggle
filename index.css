@@ -1,11 +1,14 @@
 .center {
-    display: grid;
-    position: relative;
-    grid-template-areas: "header header header"
-                         "left right right"
-                         "nav footer footer";
-    grid-template-columns: 400px 250px 300px;
-    grid-template-rows: 150px 920px 400px;
+    display: flexbox;
+}
+
+p {
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+blockquote {
+    margin: 20px 10vw 40px 10vw;
 }
 
 body {
@@ -16,48 +19,33 @@ body {
     justify-self: center;
 }
 
-main {
-    grid-area: left;
-}
-
-nav {
-    grid-area: nav;
-
-}
-
-header {
-    grid-area: header;
-    align-self: center;
-    justify-self: center;
-}
-
-h1 {
-    font-size: 50px;
-}
-
 figcaption {
+    color: goldenrod;
     max-width: 300px;
 }
 
-.center-image {
-    grid-area: right;
-    display: flexbox;
-}
 
 
-/* .home-img {
-    float: left;
-    padding-right: 30px;
-} */
 
-h2 {
-    font-size: 40px;
-    clear: both;
+
+ .home-img {
+    padding: 30px;
+} 
+
+h2, h1 {
+    font-size: 2rem;
     font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
 }
 
 footer {
-    grid-area: footer;
+background-color: goldenrod;
+padding: 10px;
+margin: 10px;
+border: maroon solid 20px;
+border-radius: 30px;
+width: 33vw;
+min-width: 200px;
 }
 
 input {
@@ -67,5 +55,5 @@ input {
 textarea {
     margin: 10px;
     width: 175px;
-    height: 64px;
+    height: 15px;
 }
